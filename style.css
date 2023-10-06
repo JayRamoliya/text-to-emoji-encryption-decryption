@@ -1,0 +1,211 @@
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 40px;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main>h1{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+}
+
+#main>h1>span{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+#main>h1> span{
+    height: 40px;
+    transition: 0.3s ease;
+}
+
+#main>#endec-div{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 8px;
+    width: 23%;
+    margin: 35px 0;
+    border-radius: 10px;
+}
+
+#main>#endec-div h3{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 12px 12px;
+    transition: 0.2s ease;
+}
+
+#enc-btn{
+    background-color: #333;
+}
+
+#endec-div h3 span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#decryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+
+#decryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+
+#decryption #emojimsg{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 30px;
+}
+
+#decryption input{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+}
+
+#decryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1c1c1c;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#encryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#encryption h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #6e6e6e;
+    margin-bottom: 13px;
+}
+
+#encryption #textmsg{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+    margin-bottom: 30px;
+}
+
+#encryption input{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    outline: none;
+    background-color: #1c1c1c;
+}
+
+#encryption button{
+    display: flex;
+    align-items: center;
+    color: #6e6e6e;
+    background-color: #1c1c1c;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button span{
+    display: flex;
+    margin-left: 10px;
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the company name */
+.company-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
